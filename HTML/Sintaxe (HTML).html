@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../01 - Estilo (CSS)/Estilo.css">
+    <title>Sintaxe (HTML) - GRC</title>
+</head>
+
+<body>
+    <header>
+        <h1>GRC - Grão Repositório de Conhecimento</h1>
+    </header>
+    
+    <nav class="navegacao">
+            <ul>
+                <li class="aba"><a style="color: black" href="../index.html">Índice</a></li>
+                <li class="aba"><a style="color: black" href="../00 - Navegação/Séries.html">Séries</a></li>
+                <li class="aba"><a style="color: black" href="">Contato</a></li>
+            </ul>
+    </nav>
+
+    <article>
+
+        <h1>Sintaxe (<abbr title="Hypertext Markup Language">HTML</abbr>)</h1>
+
+        <p>Em <abbr title="Hypertext Markup Language">HTML</abbr>, os documentos são escritos utilizando tags e elementos. Eles são essenciais para estruturá-lo de modo que fique legível ao navegador. Nós chamamos isso de <strong>sintaxe</strong>.</p>
+
+        <hr>
+
+        <h2 id="direcionador1">Elemento</h2>
+
+        <p>Um <b>elemento</b> é uma parte do documento <abbr title="Hypertext Markup Language">HTML</abbr> que possui uma função especifíca. Dependendo do elemento, ele pode ser composto por:</p>
+
+        <ul>
+            <li>Tag de abertura;</li>
+            <li>Atributos;</li>
+            <li>Conteúdo;</li>
+            <li>Tag de fechamento.</li>
+        </ul>
+
+        <h3>Elemento pareado</h3>
+
+        <p>Um <b>elemento pareado <i>(paired element)</i></b> é todo elemento <abbr title="Hypertext Markup Language">HTML</abbr> que possui uma tag de abertura quanto a tag de fechamento.</p>
+
+        <h3>Elemento vazio</h4>
+
+        <p>Um <b>elemento vazio <i>(void element)</i></b> é todo elemento <abbr title="Hypertext Markup Language">HTML</abbr> que possui apenas a tag de abertura. Ou seja, não possui uma tag de fechamento (e nem conteúdo).</p>
+
+        <h3>Tag de abertura</h3>
+
+        <p>Uma <b>tag de abertura</b> é uma tag que declara o começo de um elemento (pareado ou vazio). Exemplos:</p>
+
+        <ul>
+            <li><code class="linha_codigo">&lt;p&gt;</code>;</li>
+            <li><code class="linha_codigo">&lt;i&gt;</code>;</li>
+            <li><code class="linha_codigo">&lt;h1&gt;</code>, <code class="linha_codigo">&lt;h2&gt;</code>, <code class="linha_codigo">&lt;h3&gt;</code>, <code class="linha_codigo">&lt;h4&gt;</code>, <code class="linha_codigo">&lt;h5&gt;</code> e <code class="linha_codigo">&lt;h6&gt;</code>;</li>
+            <li><code class="linha_codigo">&lt;img&gt;</code>;</li>
+            <li><code class="linha_codigo">&lt;br&gt;</code>;</li>
+            <li><code class="linha_codigo">&lt;hr&gt;</code>.</li>
+        </ul>
+
+        <h3>Tag de fechamento</h3>
+
+        <p>Uma <b>tag de fechamento</b> é uma tag que declara o fim de um elemento <b>pareado</b>. Exemplos:</p>
+
+        <ul>
+            <li><code class="linha_codigo">&lt;/p&gt;</code>;</li>
+            <li><code class="linha_codigo">&lt;/i&gt;</code>;</li>
+            <li><code class="linha_codigo">&lt;/h1&gt;</code>, <code class="linha_codigo">&lt;/h2&gt;</code>, <code class="linha_codigo">&lt;/h3&gt;</code>, <code class="linha_codigo">&lt;/h4&gt;</code>, <code class="linha_codigo">&lt;/h5&gt;</code> e <code class="linha_codigo">&lt;/h6&gt;</code>.</li>
+        </ul>
+
+        <h3>Conteúdo</h3>
+
+        <p>O <b>conteúdo</b> é o texto que está entre as tags de abertura e fechamento. Exemplos:</p>
+
+        <ul>
+            <li><code class="linha_codigo">&lt;h1&gt;Este é um título&lt;/h1&gt;</code> <p>"<code class="linha_codigo">Este é um título</code>" é o conteúdo;</p></li>
+            <li><code class="linha_codigo">&lt;p&gt;Este é um parágrafo&lt;/p&gt;</code><p>"<code class="linha_codigo">Este é um parágrafo</code>" é o conteúdo;</p></li>
+            <li><code class="linha_codigo">&lt;p&gt;&lt;i&gt;Este é um parágrafo, e o mesmo está em itálico&lt;/i&gt;&lt;/p&gt;</code><p>"<code class="linha_codigo">Este é um parágrafo, e o mesmo está em itálico</code>" é o conteúdo.</p></li>
+        </ul>
+
+        <h3>Atributos</h3>
+
+        <p>Os <b>atributos</b> são informações extras inseridas na tag de abertura que modificam o comportamento do elemento. Exemplos:</p>
+        
+        <ul>
+            <li><code class="linha_codigo">&lt;a href="https://exemplo.com"&gt;Visite o nosso site!&lt;/a&gt;</code><p>"<code class="linha_codigo">href="https://exemplo.com"</code>" é o atributo;</p></li>
+            <li><code class="linha_codigo">&lt;img src="gato.jpg" alt="Um gato"&gt;</code><p>"<code class="linha_codigo">src="gato.jpg"</code>" e "<code class="linha_codigo">alt="Um gato"</code>" são os atributos.</p></li>
+        </ul>
+
+        <p>Os valores dos atributos podem ser colocados dentro de aspas simples (') ou aspas duplas (").</p>
+
+        <h2 id="direcionador2">Estrutura básica</h2>
+
+        <p>Documentos HTML possuem uma <b>estrutura básica</b> que deve ser seguida.</p>
+
+        <h3><code class="linha_codigo">&lt;!DOCTYPE&gt;</code></h3>
+
+        <p><b><code class="linha_codigo">&lt;!DOCTYPE&gt;</code></b> é uma declaração (não uma tag) obrigatória, usada para informar ao navegador qual é o tipo de documento, neste caso, <abbr title="Hypertext Markup Language">HTML</abbr>:</p>
+
+        <ul>
+            <li>
+                <code class="linha_codigo">&lt;!DOCTYPE html&gt;</code>
+                <ul>
+                    <li>
+                        <p>"<code class="linha_codigo">!DOCTYPE</code>" é a declaração;</p>
+                    </li>
+                    <li>
+                        <p>"<code class="linha_codigo">html</code>" é o tipo de documento.</p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+        <h3><code class="linha_codigo">&lt;html&gt;</code></h3>
+
+        <p>As tags <b><code class="linha_codigo">&lt;html&gt;</code></b> e <b><code class="linha_codigo">&lt;/html&gt;</code></b> definem a raiz do documento. Tudo que fizer parte do documento <abbr title="Hypertext Markup Language">HTML</abbr>, deve estar entre estas duas tags, ou seja, ser o conteúdo:</p>
+
+        <div class="bloco_codigo">
+            <p class="texto_codigo">HTML</p>
+            <code>
+                &lt;!DOCTYPE html&gt;<br>
+                &lt;html&gt;<br>
+                <br>
+                &lt;/html&gt;<br>
+            </code>
+        </div>
+
+        <h3><code class="linha_codigo">&lt;head&gt;</code></h3>
+
+        <p>As tags <b><code class="linha_codigo">&lt;head&gt;</code></b> e <b><code class="linha_codigo">&lt;/head&gt;</code></b> definem o cabeçalho dodocumento (conteúdo que não é mostrado na página). Os metadados e informações adicionais devem estar entre estas duas tags, ou seja, ser o conteúdo delas:</p>
+
+        <div class="bloco_codigo">
+            <p class="texto_codigo">HTML</p>
+            <code>
+                &lt;!DOCTYPE html&gt;<br>
+                &lt;html&gt;<br>
+                &lt;head&gt;<br>
+                <br>
+                &lt;/head&gt;<br>
+                &lt;/html&gt;<br>
+            </code>
+        </div>
+
+        <h3><code class="linha_codigo">&lt;title&gt;</code></h3>
+
+        <p>As tags <b><code class="linha_codigo">&lt;title&gt;</code></b> e <b><code class="linha_codigo">&lt;/title&gt;</code></b> definem o título do documento que aparece na aba do navegador. Elas devem estar entre as tags <code class="linha_codigo">&lt;head&gt;</code> e <code class="linha_codigo">&lt;/head&gt;</code>. Exemplo:</p>
+
+        <div class="bloco_codigo">
+            <p class="texto_codigo">HTML</p>
+            <code>
+                &lt;!DOCTYPE html&gt;<br>
+                &lt;html&gt;<br>
+                &lt;head&gt;<br>
+                &lt;title&gt;Título de Exemplo&lt;/title&gt;<br>
+                &lt;/head&gt;<br>
+                &lt;/html&gt;<br>
+            </code>
+        </div>
+
+        <h3><code class="linha_codigo">&lt;body&gt;</code></h3>
+
+        <p>As tags <b><code class="linha_codigo">&lt;body&gt;</code></b> e <b><code class="linha_codigo">&lt;/body&gt;</code></b> definem o corpo do documento (conteúdo que é mostrado na página). Os títulos, subtítulos, parágrafos, imagens, hyperlinks etc. devem estar entre estas duas tags, ou seja, ser o conteúdo delas:</p>
+
+        <div class="bloco_codigo">
+            <p class="texto_codigo">HTML</p>
+            <code>
+                &lt;!DOCTYPE html&gt;<br>
+                &lt;html&gt;<br>
+                &lt;head&gt;<br>
+                &lt;title&gt;Título de Exemplo&lt;/title&gt;<br>
+                &lt;/head&gt;<br>
+                &lt;body&gt;<br>
+                &lt;p&gt;Este é um parágrafo.&lt;/p&gt;<br>
+                &lt;/body&gt;<br>
+                &lt;/html&gt;<br>
+            </code>
+        </div>
+
+    </article>
+</body>
+
+</html>

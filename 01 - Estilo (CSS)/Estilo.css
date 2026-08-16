@@ -1,0 +1,152 @@
+/* Este documento CSS é o documento central para a estilização de todos os arquivos do GRC. */
+/* Toda alteração neste arquivo deve ser feita com cautela, o uso de ferramentas de versionamento é altamente recomendado */
+/* Grato */
+
+
+
+/*
+Geral
+*/
+
+a {
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h4 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h5 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h6 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+hr {
+    color: ghostwhite;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*
+Textos
+*/
+
+.texto_codigo{
+    font-size: 75%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*
+(Conteúdo) Em Linhas
+*/
+
+.linha_codigo{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+/*
+(Conteúdo) Em Blocos
+*/
+
+.navegacao {
+    text-align: left;
+    background-color: gray;
+}
+
+.aba {
+    display: inline;
+    margin: 20px;
+}
+
+.bloco_serie {
+    background-color: solid lightgrey;
+    text-align: center;
+    border: 2px solid black;
+    padding: 0px 15px;
+    float: right;
+}
+
+.bloco_codigo{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    padding-top: 0px;
+    margin-top: 10px;
+}
+
+.bloco_formula{
+    background-color: solid lightgrey;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/*
+Direcionadores (servem para direcionar o usuário para uma seção específica de uma página, por isso estão vazios)
+*/
+
+#direcionador1 {
+
+}
+
+#direcionador2 {
+
+}
+
+#direcionador3 {
+
+}
+
+#direcionador4 {
+
+}
+
+#direcionador5 {
+
+}
+
+#direcionador6 {
+
+}
+
+#direcionador7 {
+
+}
+
+#direcionador8 {
+
+}
+
+#direcionador9 {
+
+}
+
+#direcionador10 {
+
+}
