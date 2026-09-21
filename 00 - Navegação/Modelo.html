@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head> <!--Cabeça do documento, o qual vai estar todas as informação invisíveis aos usuários, como metadados e estilização-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../01 - Estilo (CSS)/Estilo.css">
+    <title>Modelo - GRC</title> <!--Título do documento, o qual vai aparecer na aba do navegador-->
+</head>
+
+<body> <!--Corpo do documento, o qual vai estar todas as informações visíveis aos usuários-->
+    <header>
+        <h1>GRC - Grão Repositório de Conhecimento</h1> <!--Cabeçalho do documento-->
+    </header>
+
+    <nav class="navegacao"> <!--Seção de navegação geral do site-->
+            <ul>
+                <li class="aba"><a style="color: black" href="../index.html">Índice</a></li>
+                <li class="aba"><a style="color: black" href="../00 - Navegação/Séries.html">Séries</a></li>
+                <li class="aba"><a style="color: black" href="">Contato</a></li>
+            </ul>
+    </nav>
+
+    <article> <!--Artigo do documento, o qual vai estar o conteúdo principal do mesmo-->
+        <h1>Título</h1> <!--Título do artigo-->
+
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere consequatur sapiente officia libero, qui aut maiores debitis placeat repellat, nulla eaque iure, quibusdam tempora officiis! Quis nostrum accusantium autem optio?</p> <!--Os parágrafos de introdução SEMPRE devem vir antes da seção de navegação de série-->
+
+        <aside class="bloco_serie"> <!--Seção de navegação de série, destinada à auxiliar o usuário a navegar por documentos relacionados ao conteúdo deste-->
+            <p><i>Parte de uma série sobre</i><br><a href="../HTML/HTML.html"><b>HTML</b></a></p>
+            <img src="../02 - Multimídia/HTML5_Logo_512px.png" width="120px"><br>
+            <a href="../HTML/Sintaxe (HTML).html"><b>Sintaxe</b></a><br>
+            <ul style="text-align: left;">
+                <li><a href="../HTML/Sintaxe (HTML).html#direcionador1">Elemento</a></li>
+                <li><a href="../HTML/Sintaxe (HTML).html#direcionador2">Estrutura básica</a></li>
+            </ul>
+            <p><b>Elementos fundamentais</b></p>
+            <ul style="text-align: left;">
+                <li><a href="../HTML/p.html">&lt;p&gt;</a></li>
+                <li><a href="../HTML/h1 à h6.html">&lt;h1&gt; à &lt;h6&gt;</a></li>
+            </ul>
+            <a href="../HTML/Comentário (HTML).html"><b>Comentário</b></a>
+        </aside>
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut alias earum odit delectus aliquam veniam magnam assumenda eius quos, eaque optio, voluptates officiis libero molestias enim? Dolorum voluptas voluptate rem!</p>
+
+        <hr> <!--Linha horizontal, a qual deve separar subtítulos do tipo h2 do artigo. OBS: subtítulos do h3 em diante não devem ser precedidos de uma linha horizontal-->
+
+        <h2>Subtítulo 1</h2> <!--Subtítulo do artigo-->
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis possimus sunt eos aliquam sequi, consectetur aut maiores impedit voluptates fugiat, facere eaque assumenda ea enim reiciendis nam dolores soluta autem?</p>
+
+        <hr> <!--Linha horizontal, a qual deve separar subtítulos do artigo-->
+
+        <h2>Subtítulo 2</h2> <!--Subtítulo do artigo-->
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos excepturi quia quos beatae optio, consequuntur reprehenderit quo autem consectetur doloribus dolor et iure voluptate dolores corrupti, atque odio vero voluptatibus.</p>
+    </article>
+
+    <footer class="rodape"> <!--Rodapé do documento, o qual deve informar a data de criação do documento e a última vez que foi editado-->
+        <ul>
+            <il><p>Criação do documento: segunda-feira, 21 de setembro de 2026, às 18:03:04</p></il>
+            <il><p>Última edição: segunda-feira, 21 de setembro de 2026, às 19:03:25</p></il>
+        </ul>
+    </footer>
+</body>

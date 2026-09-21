@@ -78,6 +78,10 @@ Textos
     background-color: gray;
 }
 
+.rodape {
+    font-style: italic;
+}
+
 .aba {
     display: inline;
     margin: 20px;
