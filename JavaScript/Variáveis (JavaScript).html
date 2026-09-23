@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head> <!--Cabeça do documento, o qual vai estar todas as informação invisíveis aos usuários, como metadados e estilização-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../01 - Estilo (CSS)/Estilo.css">
+    <title>Variáveis (JavaScript) - GRC</title> <!--Título do documento, o qual vai aparecer na aba do navegador-->
+</head>
+
+<body> <!--Corpo do documento, o qual vai estar todas as informações visíveis aos usuários-->
+    <header>
+        <h1>GRC - Grão Repositório de Conhecimento</h1> <!--Cabeçalho do documento-->
+    </header>
+
+    <nav class="navegacao"> <!--Seção de navegação geral do site-->
+            <ul>
+                <li class="aba"><a style="color: black" href="../index.html">Índice</a></li>
+                <li class="aba"><a style="color: black" href="../00 - Navegação/Séries.html">Séries</a></li>
+                <li class="aba"><a style="color: black" href="">Contato</a></li>
+            </ul>
+    </nav>
+
+    <article> <!--Artigo do documento, o qual vai estar o conteúdo principal do mesmo-->
+        <h1>Variáveis (JavaScript)</h1> <!--Título do artigo-->
+
+        <p>Em JavaScript, as <strong>variáveis</strong> servem para armazenar e manipular dados durante a execução do programa.</p> <!--Os parágrafos de introdução SEMPRE devem vir antes da seção de navegação de série-->
+
+        <p>Para declarar variáveis em JavaScript, usa-se as palavras-chave <code class="linha_codigo">const</code>, <code class="linha_codigo">let</code> e <code class="linha_codigo">var</code>.</p>
+
+        <hr> <!--Linha horizontal, a qual deve separar subtítulos do tipo h2 do artigo. OBS: subtítulos do h3 em diante não devem ser precedidos de uma linha horizontal-->
+
+        <h2><code class="linha_codigo">const</code></h2> <!--Subtítulo do artigo-->
+
+        <p>Variáveis do tipo <code class="linha_codigo">const</code> não podem ser redeclarados e nem reatribuídos:</p>
+
+        <div class="bloco_codigo">
+            <p class="texto_codigo">JavaScript</p>
+            <code>
+                const nome = "Ana";<br>
+                nome = "Carlos";
+            </code>
+        </div>
+
+        <p>A variável <code class="linha_codigo">nome</code> terá <b>sempre</b> o valor <code class="linha_codigo">Ana</code>, tentar reatribuir seu valor para <code class="linha_codigo">Carlos</code> resultará em erro.</p>
+
+        <hr> <!--Linha horizontal, a qual deve separar subtítulos do artigo-->
+
+        <h2><code class="linha_codigo">let</code></h2> <!--Subtítulo do artigo-->
+
+        <p>Variáveis do tipo <code class="linha_codigo">let</code> não podem ser redeclarados, mas podem ser reatribuídos:</p>
+
+        <div class="bloco_codigo">
+            <p class="texto_codigo">JavaScript</p>
+            <code>
+                let nome = "Ana";<br>
+                nome = "Carlos";
+            </code>
+        </div>
+
+        <p>A variável <code class="linha_codigo">nome</code> terá o seu valor (<code class="linha_codigo">Ana</code>) <b>reatribuído</b> para <code class="linha_codigo">Carlos</code>.</p>
+    </article>
+
+    <footer class="rodape"> <!--Rodapé do documento, o qual deve informar a data de criação do documento e a última vez que foi editado-->
+        <ul>
+            <il><p>Criação do documento: terça-feira, 22 de setembro de 2026, às 15:41</p></il>
+            <il><p>Última edição: terça-feira, 22 de setembro de 2026, às 17:48</p></il>
+        </ul>
+    </footer>
+</body>
+</html>

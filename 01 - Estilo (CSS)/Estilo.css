@@ -67,6 +67,7 @@ Textos
     color: white;
     border: 2px solid black;
     border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 /*
@@ -103,6 +104,7 @@ Textos
     padding: 10px;
     padding-top: 0px;
     margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .bloco_formula{
